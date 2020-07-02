@@ -1,0 +1,27 @@
+.gallary-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-gap: 20px;
+}
+.img-big-container{
+    overflow: hidden;
+}
+.gallary-container{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+.gallary-container img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.full-image{
+    transition: all 0.15s linear;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -ms-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+}
